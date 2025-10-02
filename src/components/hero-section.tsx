@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { SHOPIFY_APP_URL } from '@/consts'
 import { openInNewTab } from '@/lib/utils'
-import { Check, CircleQuestionMark } from 'lucide-react'
+import { Check } from 'lucide-react'
 import Image from 'next/image'
 
 export function HeroSection() {
@@ -24,7 +24,6 @@ export function HeroSection() {
           <li className='flex gap-2 items-center'>
             <Check size={20} className='text-green-600' />
             Get $500 Promo Credit
-            <CircleQuestionMark size={16} />
           </li>
           <li className='flex gap-2 items-center'>
             <Check size={20} className='text-green-600' />
