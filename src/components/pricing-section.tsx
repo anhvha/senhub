@@ -1,7 +1,11 @@
+'use client';
+
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { Check, X } from 'lucide-react'
 import { QuestionTooltip } from './question-tooltip'
+import { openInNewTab } from '@/lib/utils'
+import { SHOPIFY_APP_URL } from '@/consts'
 
 const plans = [
   {
@@ -73,13 +77,13 @@ const plans = [
         tooltip: null,
       },
     ],
-    popular: false,
+    popular: true,
   },
   {
     name: 'Silver',
     price: '$25',
     period: '/month',
-    button: 'Get Started',
+    button: 'Comming Soon',
     description: null,
     features: [
       {
@@ -144,13 +148,13 @@ const plans = [
         tooltip: null,
       },
     ],
-    popular: true,
+    popular: false,
   },
   {
     name: 'Gold',
     price: '$50',
     period: '/month',
-    button: 'Get Started',
+    button: 'Comming Soon',
     description: null,
     features: [
       {
@@ -222,7 +226,7 @@ const plans = [
 
 export function PricingSection() {
   return (
-    <section id='pricing' className='lg:pt-12 lg:pb-24 lg:px-32 p-8'>
+    <section id='pricing' className='lg:pt-12 lg:pb-24 lg:px-32 sm:p-8 p-4'>
       <div className='container mx-auto px-4'>
         <div className='text-center space-y-4 md:mb-16 mb-4'>
           <h2 className='text-4xl font-bold text-balance'>Pricing</h2>
@@ -262,6 +266,8 @@ export function PricingSection() {
                 </div>
                 <Button
                   variant={plan.popular ? 'default' : 'outline'}
+                  disabled={plan.button === 'Comming Soon'}
+                  onClick={() => openInNewTab(SHOPIFY_APP_URL)}
                   className='w-full'
                 >
                   {plan.button}

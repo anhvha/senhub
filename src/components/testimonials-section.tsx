@@ -26,7 +26,7 @@ const testimonials = [
 
 export function TestimonialsSection() {
   return (
-    <section id="testimonials" className="lg:pt-12 lg:pb-24 lg:px-32 p-8 bg-violet-100/30">
+    <section id="testimonials" className="lg:pt-12 lg:pb-24 lg:px-32 sm:p-8 p-4 bg-violet-100/30">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 md:mb-16 mb-4">
           <h2 className="text-4xl font-bold text-balance">Trusted by E-commerce Teams</h2>

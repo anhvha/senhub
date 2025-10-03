@@ -8,7 +8,7 @@ import Image from 'next/image'
 
 export function HeroSection() {
   return (
-    <section className='relative bg-violet-100/30 grid md:grid-cols-[4fr_5fr] md:gap-4 gap-8 lg:pt-12 lg:pb-24 lg:px-32 p-8 items-center'>
+    <section className='relative bg-violet-100/30 grid md:grid-cols-[4fr_5fr] md:gap-4 gap-8 lg:pt-12 lg:pb-24 lg:px-32 sm:p-8 p-4 items-center'>
       <div className='text-center md:text-left'>
         <div className='font-semibold mb-2 text-lg'>
           <span className='text-primary'>90%</span> faster than traditional POD

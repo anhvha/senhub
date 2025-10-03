@@ -44,7 +44,7 @@ export function ServicesSection() {
   return (
     <section
       id='features'
-      className='lg:pt-12 lg:pb-24 lg:px-32 p-8 bg-violet-100/30'
+      className='lg:pt-12 lg:pb-24 lg:px-32 sm:p-8 p-4 bg-violet-100/30'
     >
       <div className='container mx-auto px-4'>
         <div className='text-center space-y-4 md:mb-16 mb-4'>
@@ -66,7 +66,7 @@ export function ServicesSection() {
                 className='p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:bg-card/70 transition-colors'
               >
                 <div className='space-y-4'>
-                  <div className='w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center'>
+                  <div className='w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center'>
                     <IconComponent className='w-6 h-6 text-primary' />
                   </div>
                   <div className='space-y-2'>

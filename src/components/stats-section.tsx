@@ -25,7 +25,7 @@ const stats = [
 
 export function StatsSection() {
   return (
-    <section className="lg:pt-12 lg:pb-24 lg:px-32 p-8 border-border/40">
+    <section className="lg:pt-12 lg:pb-24 lg:px-32 sm:p-8 p-4 border-border/40">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {stats.map((stat, index) => (
