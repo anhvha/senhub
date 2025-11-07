@@ -5,7 +5,7 @@ export default function PrivacyPolicy() {
       className='lg:pt-12 lg:pb-24 lg:px-32 sm:p-8 p-4 bg-violet-100/30'
     >
       <div className='container max-w-5xl mx-auto px-4 flex flex-col gap-6'>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>Introduction</h2>
           <p className='text-lg text-muted-foreground'>
             We take seriously the privacy of our website Members and Visitors.
@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
             privacy@senhub.com.
           </p>
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             What This Policy Covers
           </h2>
@@ -38,7 +38,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             What This Policy Does Not Cover
           </h2>
@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Consent To Collection & Processing In The United States and
             Singapore
@@ -74,7 +74,7 @@ export default function PrivacyPolicy() {
           Information You Provide
         </h2>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Information You Provide During Member Account Creation
           </h2>
@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Information You Provide When Purchasing Products
           </h2>
@@ -98,7 +98,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Information You Provide When Requesting Assistance
           </h2>
@@ -115,7 +115,7 @@ export default function PrivacyPolicy() {
           Other Information We Collect
         </h2>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Log Files & Analytics
           </h2>
@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Pixels, aka Web Beacons
           </h2>
@@ -156,9 +156,9 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>Cookies</h2>
-          <div className='flex flex-col gap-1'>
+          <div className='flex flex-col gap-2'>
             <p className='text-lg text-muted-foreground'>
               A cookie is a small text file that is stored on the computer of
               Members or Visitors for record-keeping purposes. It can also help
@@ -177,7 +177,7 @@ export default function PrivacyPolicy() {
           </div>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>Do Not Track</h2>
           <p className='text-lg text-muted-foreground'>
             At this time, the Service does not respond to “do not track” signals
@@ -189,7 +189,7 @@ export default function PrivacyPolicy() {
           Information We Do Not Collect From Any Users
         </h2>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>Children</h2>
           <p className='text-lg text-muted-foreground'>
             As explained further in our terms of use, you must be 18 years of
@@ -206,7 +206,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Payment Information
           </h2>
@@ -226,7 +226,7 @@ export default function PrivacyPolicy() {
           How We Use Information
         </h2>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             To Provide You With The Service
           </h2>
@@ -236,7 +236,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             In Our Communications With You
           </h2>
@@ -247,7 +247,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Service-Related Announcements
           </h2>
@@ -267,7 +267,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Promotional Announcements
           </h2>
@@ -282,7 +282,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             With Our Sister Services
           </h2>
@@ -296,7 +296,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>On Our Website</h2>
           <p className='text-lg text-muted-foreground'>
             We may use the information we collect to calculate and publish
@@ -309,7 +309,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             For Internal Reporting and Analysis
           </h2>
@@ -327,7 +327,7 @@ export default function PrivacyPolicy() {
 
         <h2 className='text-2xl font-bold text-balance'>With Third Parties</h2>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             To Provide You With The Service
           </h2>
@@ -340,7 +340,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             To Help Connect Buyers and Sellers
           </h2>
@@ -353,7 +353,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Sharing, Renting, & Selling Information We Collect
           </h2>
@@ -370,7 +370,7 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>Linked Services</h2>
           <p className='text-lg text-muted-foreground'>
             In some cases, we allow you to access or link to other web services
@@ -389,11 +389,11 @@ export default function PrivacyPolicy() {
           </p>
         </div>
 
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-4'>
           <h2 className='text-xl font-bold text-balance'>
             Third-Party Service Providers
           </h2>
-          <div className='flex flex-col gap-1'>
+          <div className='flex flex-col gap-2'>
             <p className='text-lg text-muted-foreground'>
               We use other companies, agents, and/or contractors to perform
               services on our behalf or to assist us with providing the Service
@@ -418,7 +418,7 @@ export default function PrivacyPolicy() {
             As Necessary In Certain Legal Circumstances
           </h2>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>
               Legal Requirements
             </h2>
@@ -436,7 +436,7 @@ export default function PrivacyPolicy() {
             </p>
           </div>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>Acquisition</h2>
             <p className='text-lg text-muted-foreground'>
               If we become involved in a merger, acquisition, or any form of
@@ -453,7 +453,7 @@ export default function PrivacyPolicy() {
             How We Keep Information Secure
           </h2>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>
               Security Of Account Information
             </h2>
@@ -464,7 +464,7 @@ export default function PrivacyPolicy() {
             </p>
           </div>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>Network Security</h2>
             <p className='text-lg text-muted-foreground'>
               Both we and our partners employ a variety of commercially standard
@@ -477,7 +477,7 @@ export default function PrivacyPolicy() {
             </p>
           </div>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>
               Management Procedures
             </h2>
@@ -496,7 +496,7 @@ export default function PrivacyPolicy() {
             Your Personal Choices
           </h2>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>
               Access To Personal Information
             </h2>
@@ -508,7 +508,7 @@ export default function PrivacyPolicy() {
             </p>
           </div>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>
               Receiving Communications
             </h2>
@@ -521,7 +521,7 @@ export default function PrivacyPolicy() {
             </p>
           </div>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>
               Editing / Deleting Your Account
             </h2>
@@ -531,11 +531,11 @@ export default function PrivacyPolicy() {
             </p>
           </div>
 
-          <div className='flex flex-col gap-2'>
+          <div className='flex flex-col gap-4'>
             <h2 className='text-xl font-bold text-balance'>
               Updates to Our Privacy Policy
             </h2>
-            <div className='flex flex-col gap-1'>
+            <div className='flex flex-col gap-2'>
               <p className='text-lg text-muted-foreground'>
                 From time to time, we will review and may make changes to our
                 privacy policy. Please check our Privacy Policy periodically for
