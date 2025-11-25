@@ -2,11 +2,47 @@
 
 import { useState } from 'react'
 import { siteConfig } from '@/config/site'
-import { Button, Container } from '@/components/ui'
+import { Button } from '@/components/ui'
+
+type SubmitStatus = 'idle' | 'loading' | 'success' | 'error'
 
 export function CTASection() {
-  const { cta } = siteConfig
+  const { cta, api } = siteConfig
   const [email, setEmail] = useState('')
+  const [status, setStatus] = useState<SubmitStatus>('idle')
+  const [errorMessage, setErrorMessage] = useState('')
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      setStatus('error')
+      setErrorMessage('Please enter a valid email address')
+      return
+    }
+
+    setStatus('loading')
+    setErrorMessage('')
+
+    const response = await fetch(`${api.baseUrl}${api.endpoints.subscribeNewsletter}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+      },
+      body: JSON.stringify({ email }),
+    })
+
+    const data = await response.json()
+
+    if (response.ok && data.success) {
+      setStatus('success')
+      setEmail('')
+    } else {
+      setStatus('error')
+      setErrorMessage(data.message || 'Something went wrong. Please try again.')
+    }
+  }
 
   return (
     <section className="relative w-full max-w-[1074px] mx-auto z-20 mb-[-150px]">
@@ -24,22 +60,39 @@ export function CTASection() {
             {cta.description}
           </p>
 
-          <div className="w-full max-w-[476px] relative">
-            <div className="bg-[#FDFDFD] border border-[#8A8A8A] rounded-[8px] p-1.5 pl-3 flex items-center">
-              <input
-                type="email"
-                placeholder={cta.placeholder}
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 bg-transparent border-none outline-none text-[13px] text-[#101010] placeholder:text-[#616161]"
-              />
-              <Button
-                className="bg-[#7781EF] hover:bg-[#6C70DD] text-white rounded-[6px] px-6 py-2.5 text-[16px] font-normal h-auto"
-              >
-                {cta.buttonText}
-              </Button>
+          {status === 'success' ? (
+            <div className="w-full max-w-[476px] bg-white/20 rounded-[8px] p-4">
+              <p className="text-white text-[16px] font-medium">
+                Thank you! We&apos;ll be in touch soon.
+              </p>
             </div>
-          </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="w-full max-w-[476px] relative">
+              <div className="bg-[#FDFDFD] border border-[#8A8A8A] rounded-[8px] p-1.5 pl-3 flex items-center">
+                <input
+                  type="email"
+                  placeholder={cta.placeholder}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  disabled={status === 'loading'}
+                  className="flex-1 bg-transparent border-none outline-none text-[13px] text-[#101010] placeholder:text-[#616161] disabled:opacity-50"
+                />
+                <Button
+                  type="submit"
+                  disabled={status === 'loading'}
+                  className="bg-[#7781EF] hover:bg-[#6C70DD] text-white rounded-[6px] px-6 py-2.5 text-[16px] font-normal h-auto disabled:opacity-50"
+                >
+                  {status === 'loading' ? 'Submitting...' : cta.buttonText}
+                </Button>
+              </div>
+
+              {status === 'error' && errorMessage && (
+                <p className="text-red-200 text-[13px] mt-2 text-left">
+                  {errorMessage}
+                </p>
+              )}
+            </form>
+          )}
         </div>
       </div>
     </section>
