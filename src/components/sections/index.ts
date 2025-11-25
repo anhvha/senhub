@@ -1,0 +1,8 @@
+export { HeroSection } from './HeroSection'
+export { ValuePropositionSection } from './ValuePropositionSection'
+export { SimpleSection } from './SimpleSection'
+export { CatalogSection } from './CatalogSection'
+export { HowItWorksSection } from './HowItWorksSection'
+export { FAQSection } from './FAQSection'
+export { CTASection } from './CTASection'
+export { Footer } from './Footer'
