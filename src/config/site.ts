@@ -5,20 +5,14 @@ export const siteConfig = {
   url: 'https://senhub.com',
 
   links: {
-    calendly: 'https://calendly.com/senhub/demo',
-    installApp: 'https://apps.shopify.com/senhub',
-    social: {
-      instagram: 'https://instagram.com/senhub',
-      facebook: 'https://facebook.com/senhub',
-      twitter: 'https://twitter.com/senhub',
-      youtube: 'https://youtube.com/@senhub',
-    },
+    calendly: 'https://calendly.com/duongvt-senprints/branded-gift-demo-call',
+    installApp: 'https://apps.shopify.com/senhub-global-pod?utm_source=Landingpage&utm_medium=Landing+page+&utm_campaign=BOGOS',
   },
 
   api: {
-    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'https://api.senhub.com',
+    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'https://pod-api.senhub.com',
     endpoints: {
-      subscribeNewsletter: '/api/newsletter/subscribe',
+      subscribeNewsletter: '/shopify/subscribe',
     },
   },
 
@@ -103,7 +97,7 @@ export const siteConfig = {
         number: '1',
         title: 'Step 1: Choose your product',
         description:
-          'Stay on top of every detail. Task lists make it easy for teams to see exactly what to do, set priorities, and track deadlines.',
+          'Totes, candles, apparel, mugs, and more.',
         image: '/images/steps/step-1-preview.png',
       },
       {
@@ -160,7 +154,7 @@ export const siteConfig = {
   cta: {
     title: "Let’s build your first branded gift together",
     description:
-      "Share your email or book a short video call — we’ll guide you step by step.",
+      "Please leave your email below so we can contact you as soon as possible.",
     placeholder: 'Enter your email to get started',
     buttonText: 'Submit',
   },
