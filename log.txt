@@ -1,0 +1,8 @@
+13:51:11.571    Finished
+13:51:12.474    Checking for configuration in a Wrangler configuration file (BETA)
+13:51:12.474    
+13:51:13.581    No wrangler.toml file found. Continuing.
+13:51:13.582    Note: No functions dir at /functions found. Skipping.
+13:51:13.583    Validating asset output directory
+13:51:13.583    Error: Output directory "out" not found.
+13:51:14.871    Failed: build output directory not found
