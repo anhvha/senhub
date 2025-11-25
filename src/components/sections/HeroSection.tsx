@@ -67,7 +67,7 @@ export function HeroSection() {
             </div>
             
             <p className="text-[14px] font-light text-[#959595] max-w-[400px] mt-2">
-              We'll walk you through the entire gifting workflow and show you real examples that fit your brand.
+              We&apos;ll walk you through the entire gifting workflow and show you real examples that fit your brand.
             </p>
           </div>
         </div>

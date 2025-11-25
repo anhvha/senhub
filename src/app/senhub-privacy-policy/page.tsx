@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
                   Please read this privacy policy to learn more about how we treat
                   information, including personally identifiable information, in
                   connection with your use of the senhub.com website and online
-                  service (the "Service"). We provide this privacy policy because you
+                  service (the &ldquo;Service&rdquo;). We provide this privacy policy because you
                   have a right to know what information we collect, how it is used and
                   protected, and the circumstances under which it may be shared or
                   disclosed. If you have comments, suggestions, questions, or concerns
@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
                   personally identifiable information, that we obtain from you when
                   you visit our website, order Products through the Service, register
                   to become a Member of the Service, or join our VIP Seller Program.
-                  We regard "personally identifiable information" as information we
+                  We regard &ldquo;personally identifiable information&rdquo; as information we
                   obtain from you that someone can use to identify or contact you in
                   person, such as your real name, telephone number, email address, or
                   physical mailing address. Information that we use internally to
@@ -105,7 +105,7 @@ export default function PrivacyPolicyPage() {
                 <p>
                   Similar to many websites and internet services, we gather certain
                   information automatically and store it in web server log files. This
-                  information includes your web request, Internet Protocol ("IP")
+                  information includes your web request, Internet Protocol (&ldquo;IP&rdquo;)
                   address information, unique device identifier (e.g., UDID, MAC
                   Address, etc.), browser type, referring / exit pages and URLs,
                   number of clicks, domain names, landing pages, pages viewed, and
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
 
               <Section title="Do Not Track">
                 <p>
-                  At this time, the Service does not respond to "do not track" signals
+                  At this time, the Service does not respond to &ldquo;do not track&rdquo; signals
                   sent from browsers.
                 </p>
               </Section>
@@ -162,8 +162,8 @@ export default function PrivacyPolicyPage() {
                   age or older – or, if you are under the age of majority in your
                   jurisdiction, have the consent of your parent or legal guardian – to
                   use the Service. We do not knowingly collect personally identifiable
-                  information from children. In accordance with the Federal Children's
-                  Online Privacy Protection Act of 1998 ("COPPA"), we will never
+                  information from children. In accordance with the Federal Children&apos;s
+                  Online Privacy Protection Act of 1998 (&ldquo;COPPA&rdquo;), we will never
                   knowingly solicit, nor will we accept, personally identifiable
                   information from those known to be under thirteen (13) years of age.
                   If you believe that we have information from or about anyone under
@@ -310,7 +310,7 @@ export default function PrivacyPolicyPage() {
                 <p>
                   We make it easy for Members to view, edit, and/or delete the
                   information they have submitted to the Service; that information
-                  is available for editing in the "Settings" section of your Member
+                  is available for editing in the &ldquo;Settings&rdquo; section of your Member
                   account.
                 </p>
               </Section>
