@@ -21,8 +21,8 @@ export const siteConfig = {
     title: 'Boost Loyalty With Simple, Meaningful Branded Gifts',
     description:
       'Create branded gift products in minutes - no design skills, no inventory, fully handled inside SenHub.',
-    ctaPrimary: 'Book a video call',
-    ctaSecondary: 'Install app',
+    ctaPrimary: 'Book a free demo call',
+    ctaSecondary: 'Install SenHub now',
   },
 
   valueProposition: {
