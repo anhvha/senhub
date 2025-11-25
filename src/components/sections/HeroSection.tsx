@@ -200,12 +200,16 @@ export function HeroSection() {
               <span className="text-[#878787] text-base font-normal">Or</span>
 
               <Button
-                variant="outline"
                 size="lg"
-                className="bg-white text-[#303030] border-[#303030] hover:bg-neutral-50 px-6 py-4 h-auto text-base font-medium rounded-[6px]"
+                className="!bg-[#303030] hover:!bg-[#404040] !text-white px-6 py-4 h-auto text-base font-medium rounded-[8px] flex items-center gap-2 relative overflow-hidden group"
                 onClick={() => window.open(siteConfig.links.installApp, '_blank')}
               >
+                {/* Shopify Icon */}
+                <img src="/shopify.svg" alt="Shopify" className="w-5 h-5" />
                 {siteConfig.hero.ctaSecondary}
+                
+                {/* Shine Effect */}
+                <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/10 to-transparent z-10" />
               </Button>
             </div>
             
